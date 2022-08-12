@@ -13,3 +13,5 @@ def solution(S):
         elif i == '}':
             valid = False if not stack or stack.pop() != '{' else valid
     return 1 if valid and not stack else 0
+
+print(solution(''))
