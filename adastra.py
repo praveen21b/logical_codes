@@ -29,7 +29,7 @@ def solution(N):
     n = len(str(N))
     target = 2
     val = str(N)
-    max_val = -math.inf # or 8000
+    max_val = -math.inf # or -8000
     mode,tar_str = (1,val) if N >= 0 else (-1,val[1:])
     #print(n)
     for i in range(0,n+1):
