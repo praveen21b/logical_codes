@@ -29,6 +29,7 @@ def solution(A):
     for i in range(0, len(counter)):
         if (counter[i] == 0):
             return i + 1
-    return n + 1
+    return n + 1 # for existing numbers
 
-print(solution([1,3,1]))
+print(solution([-3,-1,3]))
+print(solution([1,2,3]))

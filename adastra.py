@@ -27,7 +27,7 @@ def solution(N):
 
 # second solution
     n = len(str(N))
-    target = 5
+    target = 2
     val = str(N)
     max_val = -math.inf # or 8000
     mode,tar_str = (1,val) if N >= 0 else (-1,val[1:])
@@ -40,3 +40,4 @@ def solution(N):
 print(solution(-999))
 print(solution(-128))
 print(solution(128))
+print(solution(-13))
